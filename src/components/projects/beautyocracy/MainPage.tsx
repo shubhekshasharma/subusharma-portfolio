@@ -6,18 +6,19 @@ import { Footer } from "@/components/Footer";
 
 export default function BeautyocracyMainPage() {
   return (
-    <div className="flex flex-col min-h-[80vh] bg-white px-6 py-20">
-      <main className="w-full max-w-5xl mx-auto space-y-20">
+    <div className="flex flex-col min-h-[80vh] bg-white px-6 py-10">
+      <main className="w-full max-w-5xl mx-auto space-y-10">
 
         <Header />
 
-        <section className="w-full h-100 md:h-[500px] relative flex items-center justify-center overflow-hidden">
-        <img
+          <section className="w-full h-[300px] md:h-[500px] relative flex items-center justify-center overflow-hidden">
+          <img
             src="/images/beautyocracy/beautyocracy.gif"
             alt="Project GIF"
             className="absolute inset-0 w-full h-full object-cover"
-        />
+          />
         </section>
+
 
         <section className="w-full bg-gray-50 py-16">
           <div className="w-full md:w-4/5 mx-auto flex flex-col md:flex-row gap-16">

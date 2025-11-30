@@ -11,12 +11,12 @@ export default function ProjectTile({ id, name, detail, href, thumbnail }: Proje
     return (
         <a
             href={href}
-            className="group border border-zinc-200 rounded-xl bg-zinc-50 overflow-hidden hover:bg-zinc-100 transition"
+            className="group border-zinc-200 bg-zinc-50 overflow-hidden hover:bg-zinc-100 transition"
         >
             <img
                 src={thumbnail}
                 alt={name}
-                className="h-32 w-full object-cover border-b border-zinc-200"
+                className="w-full object-cover border-b border-zinc-200"
             />
             <div className="p-4 space-y-1">
                 <h3 className="font-semibold text-zinc-900 group-hover:underline">

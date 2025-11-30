@@ -2,10 +2,9 @@ export const PROJECTS_TILES_DETAILS = [
     {
         id: "beautyocracy", 
         name: "Beautyocracy", 
-        detail: "A web based app for Beautyocracy's Beta launch", 
+        detail: "Designed user flows, branding elements, and wireframes for an inclusive beauty platform.", 
         href: "/projects/beautyocracy",
-        thumbnail: "/project-thumbs/beautyocracy.png", 
-
+        thumbnail: "/images/beautyocracy/beautyocracy-thumbnail.gif", 
     }, 
      {
         id: "selective-design-system", 

@@ -15,7 +15,7 @@ export function Info() {
           </p>
           <p className="text-zinc-700 leading-relaxed">
             I also explore
-            <span className="text-blue-900"> visual storytelling </span>,
+            <span className="text-blue-900">visual storytelling </span>,
             mixed media, and 
             <span className="text-blue-900"> accessibility-driven design</span>, 
             pushing creative expression across different mediums.
