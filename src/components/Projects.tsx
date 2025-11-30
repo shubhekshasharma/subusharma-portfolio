@@ -1,32 +1,5 @@
 import ProjectTile from "./ProjectTile"
-
-
-const PROJECTS_TILES_DETAILS = [
-    {
-        id: "selective-design-system", 
-        name: "Selective Design System", 
-        detail: "The Design System for Selective Insurance", 
-        href: "/projects/selective-design-system",
-        thumbnail: "/project-thumbs/selective.png", 
-
-    }, 
-     {
-        id: "selective-design-system", 
-        name: "Selective Design System", 
-        detail: "The Design System for Selective Insurance", 
-        href: "/projects/selective-design-system",
-        thumbnail: "/project-thumbs/selective.png", 
-
-    }, 
-     {
-        id: "selective-design-system", 
-        name: "Selective Design System", 
-        detail: "The Design System for Selective Insurance", 
-        href: "/projects/selective-design-system",
-        thumbnail: "/project-thumbs/selective.png", 
-
-    }
-]
+import { PROJECTS_TILES_DETAILS } from "../data/projects"
 
 export function Projects() {
     return (
@@ -36,13 +9,15 @@ export function Projects() {
 
              {PROJECTS_TILES_DETAILS.map((project) =>
                 project ? (
-                    <ProjectTile
-                        id={project.id}
-                        name={project.name} 
-                        detail={project.detail} 
-                        href={project.href}
-                        thumbnail={project.thumbnail}
-                    />
+                    <div key={project.id}>
+                        <ProjectTile
+                            id={project.id}
+                            name={project.name} 
+                            detail={project.detail} 
+                            href={project.href}
+                            thumbnail={project.thumbnail}
+                        />
+                    </div>
                 ) : null
             )}
             </div>
